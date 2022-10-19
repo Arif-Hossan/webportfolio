@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+}
+
+nav ul li {
+    margin-right: 3%;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.half-portion {
+    width: 40%;
+    float: left;
+    margin-left: 4%;
+    padding: 1%;
+}
+
+h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+p,
+h6 {
+    color: dimgray;
+}
+.capitalize{
+    text-transform: uppercase;
+}
+
+.highlighter {
+    color: tomato;
+}
+
+.half-portion img {
+    width: 100%;
+    height: auto;
+}
+
+.link {
+    text-decoration: none;
+    background-image: linear-gradient(90deg, lightsalmon, tomato);
+    padding: 10px 25px;
+    color: white;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: large;
+    text-transform: uppercase;
+}
+
+section {
+    height: 300px;
+}
+
+.latest-title {
+
+    text-align: center;
+    padding: 5%;
+}
+
+.latest-work {
+    clear: both;
+    height: 550px;
+    background-color: rgba(181, 244, 247, 0.185);
+    padding: 1% 15%;
+}
+
+.one-third {
+
+    float: left;
+    width: 27%;
+    height: 28%;
+    box-shadow: 10px 10px 50px none;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 2%;
+    padding: 2%;
+}
+
+.one-third img {
+    width: 100%;
+}
+
+.contact {
+    clear: both;
+    height: 200px;
+}
+
+.chat {
+    background-image: url("images/connect.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 100%;
+    margin: 5% 25%;
+}
+
+.inquiry {
+    margin: 9% 10%;
+    text-align: center;
+    display: inline-block;
+}
+
+.chat h3 {
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.social-media {
+    text-align: center;
+    padding: 3% 5%;
+    margin-top: -120px;
+}
+
+.social-media img {
+    height: 35px;
+    margin-left: 10px;
+}
+
+.social-media h3 {
+    font-size: 30px;
+    margin-top: -25px;
+}
+
+.social-media h6 {
+    font-size: 15px;
+}
+
+.social-media h3 h6 {
+    margin: 15px;
+}
